@@ -25,9 +25,9 @@ plt.rcParams['figure.figsize'] = (10, 5)
 # 1. CORE BACKEND ARTIFACTS LOADING (LOAD TRAINED MODELS & ENGINE)
 # ------------------------------------------------------------------------------
 # Setting up exact absolute directory paths to safely access the saved artifacts
-MODEL_DIR = r"C:\Users\lenovo\OneDrive\Desktop\Smart Concrete AI\models"
-SCALER_PATH = os.path.join(MODEL_DIR, "standard_scaler.pkl")
-NN_MODEL_PATH = os.path.join(MODEL_DIR, "concrete_nn_model.keras")
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SCALER_PATH = os.path.join(BASE_DIR, "models", "standard_scaler.pkl")
+NN_MODEL_PATH = os.path.join(BASE_DIR, "models", "concrete_nn_model.keras")
 
 
 @tf_streamlit.cache_resource
