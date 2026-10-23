@@ -2,6 +2,8 @@
 
 An integrated, end-to-end Machine Learning and Deep Learning system designed to predict concrete compressive strength, evaluate algorithmic performance, analyze structural hardening timelines, and simulate sustainable green concrete recipes.
 
+### Web app link - https://2vpmbni3hry2cwkcx7y9va.streamlit.app/
+
 ---
 
 ## 🌟 Project Overview
