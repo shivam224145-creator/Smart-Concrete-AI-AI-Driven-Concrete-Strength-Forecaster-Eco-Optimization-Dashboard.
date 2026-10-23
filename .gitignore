@@ -1,0 +1,27 @@
+# ==============================================================================
+# GITIGNORE CONFIGURATION FOR SMARTCONCRETE AI PROJECT
+# ==============================================================================
+
+# IDE and Editor specific configurations
+.idea/
+.vscode/
+
+# Jupyter Notebook checkpoints and caches
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python compiled bytecode and cache directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local Environment or Virtual Environments
+.venv/
+venv/
+env/
+
+# Operating System specific files
+Thumbs.db
+.DS_Store
